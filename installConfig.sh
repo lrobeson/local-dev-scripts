@@ -65,13 +65,10 @@ ruby -e "$(curl -SL http://downloads2.mamp.info/MAMP-PRO/releases/3.0.6/MAMP_MAM
 
 
 # PHP and MySQL now handled by MAMP
-
 #
 # OLD, NO LONGER USED: PHP and Apache setup
 #
 # sudo ln -s ~/Dropbox/Local\ Dev\ Config/Apache/httpd.conf /private/etc/apache2/httpd.conf && launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.php54.plist && launchctl load ~/Library/LaunchAgents/homebrew.mxcl.php54.plist && sudo apachectl restart
-
-#
 # OLD, NO LONGER USED: MySQL setup
 #
 #mkdir -p ~/Library/LaunchAgents
