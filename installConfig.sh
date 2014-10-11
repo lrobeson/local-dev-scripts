@@ -19,7 +19,7 @@
 #    sudo xcodebuild -license
 #
 # 5) Copy & paste this into Terminal to set required permissions and run the script:
-#    chmod a+x ~/Dropbox/Local\ Dev\ Config/installConfig.sh && ~/Dropbox/Local\ Dev\ Config/installConfig.sh
+#    chmod a+x ~/Dropbox/Local\ Dev\ Config/scripts/installConfig.sh && ~/Dropbox/Local\ Dev\ Config/scripts/installConfig.sh
 #
 # 6) Manual steps when script is done running:
 #   - import config file from within the Terminal application:
