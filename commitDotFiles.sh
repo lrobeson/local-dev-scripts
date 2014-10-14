@@ -1,6 +1,6 @@
-# Used by Alfred to automatically commit changes in important local dev files
+# Used by Alfred workflow to automatically commit changes in dotfile directory.
 #
-# Copy & paste this into Terminal to set required permissions and run the script:
+# To run this script manually, copy & paste this into Terminal:
 # ~/Dropbox/Local-Dev-Config/scripts/commitDotfiles.sh
 
 cd ~/Dropbox/Local-Dev-Config/dotfiles && git add -u . && git commit -m "Automatic snapshot by Alfred. Yay, automation!" && git push origin master
