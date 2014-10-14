@@ -1,6 +1,7 @@
 # scripts
 
 ## Currently includes:
+- commitAlfredFiles.sh
 - commitDotFiles.sh
 - commitScriptFiles.sh
 - installConfig.sh
