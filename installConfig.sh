@@ -71,9 +71,11 @@ brew tap caskroom/fonts # install fonts with Cask
 # Install fonts
 echo "Homebrew Cask: installing fonts..."
 fonts=(
-  font-source-sans-pro
   font-input
+  font-oswald
   font-roboto
+  font-open-sans
+  font-source-sans-pro
 )
 brew cask install ${fonts[@]}
 
