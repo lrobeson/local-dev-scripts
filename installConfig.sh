@@ -82,7 +82,7 @@ brew cask install ${fonts[@]}
 # Install applications
 echo "Homebrew Cask: installing apps..."
 apps=( # Apps
-  acorn
+  # acorn
   adium
   adobe-creative-cloud
   alfred
@@ -114,7 +114,7 @@ apps=( # Apps
   spotify
   stay
   sublime-text3
-  tagspaces
+  # tagspaces
   thunderbird
   vagrant
   virtualbox
