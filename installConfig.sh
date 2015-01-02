@@ -82,14 +82,13 @@ brew cask install ${fonts[@]}
 # Install applications
 echo "Homebrew Cask: installing apps..."
 apps=( # Apps
-  # acorn
   adium
   adobe-creative-cloud
   alfred
   bartender
   boom
   caffeine
-  dash
+  clipmenu
   diffmerge
   disk-inventory-x
   #dropbox
@@ -98,12 +97,15 @@ apps=( # Apps
   firefox
   flash
   flash-player
+  fluid
   flux
+  ghostlab
   gisto
   google-chrome
   google-drive
   hipchat
   iterm2
+  jenkins-menu
   lastpass-universal
   mamp
   phantomjs
@@ -112,10 +114,9 @@ apps=( # Apps
   skype
   sourcetree
   spotify
-  stay
   sublime-text3
-  # tagspaces
   thunderbird
+  toggldesktop
   vagrant
   virtualbox
   #virtualhostx
@@ -132,7 +133,7 @@ mackup restore
 
 # Symlink dot files not supported by Mackup
 echo "Symlinking dot files not supported by Mackup..."
-ln -s ~/Dropbox/Local-Dev-Config/dot-files/.git-completion-aliases.bash .git-completion-aliases.bash && ln -s ~/Dropbox/Local-Dev-Config/dot-files/.git-completion.bash .git-completion.bash && mkdir ~/.drush && ln -s ~/Dropbox/Local-Dev-Config/dot-files/.drush/aliases.drushrc.php ~/.drush/aliases.drushrc.php
+ln -s ~/Dropbox/Local-Dev-Config/dot-files/.git-completion-aliases.bash .git-completion-aliases.bash && ln -s ~/Dropbox/Local-Dev-Config/dot-files/.git-completion.bash .git-completion.bash && mkdir ~/.drush && ln -s ~/Dropbox/Local-Dev-Config/dot-files/.drush/aliases.drushrc.php ~/.drush/aliases.drushrc.php && ln -s ~/Dropbox/Local-Dev-Config/dot-files/.bash_profile_Vagrant .bash_profile_Vagrant
 
 # Create Sites directory for local sites
 echo "Creating Sites directory..."
