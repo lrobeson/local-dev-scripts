@@ -99,14 +99,16 @@ apps=( # Apps
   flash-player
   fluid
   flux
+  focus
   ghostlab
-  gisto
+  # gisto
   google-chrome
   google-drive
   hipchat
+  istat-menus
   iterm2
   jenkins-menu
-  lastpass-universal
+  # lastpass-universal
   mamp
   phantomjs
   prey
