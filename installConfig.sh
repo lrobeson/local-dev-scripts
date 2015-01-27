@@ -4,22 +4,22 @@
 # This script takes care of installing local dev tools, applications, fonts,
 # and copying over custom configuration.
 #
-# 1) Download Dropbox: https://www.dropbox.com/downloading
+# 1) Download Google Drive: https://tools.google.com/dlpage/drive/index.html?hl=en
 #
-# 2) Set up Dropbox:
-#     - Go to Dropbox Preferences
-#     - select the Account tab
-#     - select the "Change Settings" button next to "Selective Sync"
-#     - select only the "Local Dev Config" folder for fastest syncing
-#     - wait for sync to finish, then go on to step 3
+# 2) Set up Google Drive:
+#     - Go to Preferences
+#     - select the "Sync Options" tab
+#     - select the "Only sync some folders to this computer" box
+#     - select ONLY the "Local Dev" folder for fastest syncing
+#     - click "Apply changes" and wait for sync to finish
 #
 # 3) Copy & paste this line into Terminal to run this script:
-#    ~/Dropbox/Local-Dev-Config/scripts/installConfig.sh
+#    ~/Google Drive/Local Dev/scripts/installConfig.sh
 #
 # 4) Manual steps when script is done running:
 #   - regenerate SSH keys (https://help.github.com/articles/generating-ssh-keys): update on Github, code.forumone.com, & send to Sysadmins
-#   - log in to Firefox Sync to set up bookmarks, add-ons, and history
-#   - install company fonts in the Local Dev Config -> fonts directory: Metric and Copernicus
+#   - open Firefox or Chrome to import bookmarks, add-ons, and history
+#   - install company fonts in the Local Dev -> fonts directory: Metric and Copernicus
 #   - re-add application licenses that weren't exported (Bartender, Boom, Sublime Text, etc.)
 #
 # TROUBLESHOOTING:
@@ -103,7 +103,7 @@ apps=( # Apps
   ghostlab
   # gisto
   google-chrome
-  google-drive
+  #google-drive
   hipchat
   istat-menus
   iterm2
