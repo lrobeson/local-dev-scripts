@@ -105,7 +105,7 @@ apps=( # Apps
   google-chrome
   #google-drive
   hipchat
-  istat-menus
+  imageoptim
   iterm2
   jenkins-menu
   # lastpass-universal
