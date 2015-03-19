@@ -99,13 +99,14 @@ apps=( # Apps
   flash-player
   fluid
   flux
-  focus
+  #focus
   ghostlab
   # gisto
   google-chrome
   #google-drive
   hipchat
   imageoptim
+  isolator
   iterm2
   jenkins-menu
   # lastpass-universal
