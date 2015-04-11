@@ -85,6 +85,7 @@ apps=( # Apps
   adium
   adobe-creative-cloud
   alfred
+  atext
   bartender
   boom
   caffeine
