@@ -71,6 +71,7 @@ brew tap caskroom/fonts # install fonts with Cask
 # Install fonts
 echo "Homebrew Cask: installing fonts..."
 fonts=(
+  font-fontawesome
   font-input
   font-oswald
   font-roboto
@@ -90,19 +91,19 @@ apps=( # Apps
   boom
   caffeine
   clipmenu
-  diffmerge
+  #diffmerge
   disk-inventory-x
   #dropbox
-  fantastical
   #filezilla
   firefox
   flash
   flash-player
-  fluid
+  #fluid
   flux
+  formatmatch
   #focus
   ghostlab
-  # gisto
+  gisto
   google-chrome
   #google-drive
   hipchat
@@ -110,17 +111,22 @@ apps=( # Apps
   isolator
   iterm2
   jenkins-menu
+  keepassx
   # lastpass-universal
   mamp
+  menucalendarclock-ical
+  monolingual
+  onyx
   phantomjs
   prey
   sequel-pro
   skype
   sourcetree
   spotify
+  spotify-notifications
   sublime-text3
   thunderbird
-  toggldesktop
+  #toggldesktop
   vagrant
   virtualbox
   #virtualhostx
