@@ -98,10 +98,8 @@ apps=( # Apps
   firefox
   flash
   flash-player
-  #fluid
   flux
   formatmatch
-  #focus
   ghostlab
   gisto
   google-chrome
@@ -112,14 +110,15 @@ apps=( # Apps
   iterm2
   jenkins-menu
   keepassx
-  # lastpass-universal
-  mamp
+  #lastpass-universal
+  #mamp
   menucalendarclock-ical
   monolingual
   onyx
   phantomjs
   prey
   sequel-pro
+  silverlight
   skype
   sourcetree
   spotify
