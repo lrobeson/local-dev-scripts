@@ -1,4 +1,4 @@
-﻿#
+#
 # AUTOMATED SETUP ON A NEW MACHINE:
 #
 # This script takes care of installing local dev tools, applications, fonts,
@@ -90,7 +90,6 @@ apps=( # Apps
   bartender
   boom
   caffeine
-  clipmenu
   #diffmerge
   disk-inventory-x
   #dropbox
@@ -114,7 +113,7 @@ apps=( # Apps
   #mamp
   menucalendarclock-ical
   monolingual
-  onyx
+  moom
   phantomjs
   prey
   sequel-pro
