@@ -90,6 +90,7 @@ apps=( # Apps
   bartender
   boom
   caffeine
+  #cheatsheet
   #diffmerge
   disk-inventory-x
   #dropbox
@@ -97,6 +98,7 @@ apps=( # Apps
   firefox
   flash
   flash-player
+  fluid
   flux
   formatmatch
   ghostlab
@@ -107,9 +109,11 @@ apps=( # Apps
   imageoptim
   isolator
   iterm2
+  jadengeller-helium
   jenkins-menu
   keepassx
   #lastpass-universal
+  macclean
   #mamp
   menucalendarclock-ical
   monolingual
@@ -120,6 +124,7 @@ apps=( # Apps
   silverlight
   skype
   sourcetree
+  spideroak
   spotify
   spotify-notifications
   sublime-text3
