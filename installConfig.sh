@@ -90,10 +90,12 @@ apps=( # Apps
   bartender
   boom
   caffeine
-  #cheatsheet
+  cheatsheet
+  choosy
+  cloudup
   #diffmerge
   disk-inventory-x
-  #dropbox
+  dropbox
   #filezilla
   firefox
   flash
@@ -102,10 +104,11 @@ apps=( # Apps
   flux
   formatmatch
   ghostlab
-  gisto
+  # gisto
   google-chrome
   #google-drive
   hipchat
+  hocus-focus
   imageoptim
   isolator
   iterm2
@@ -120,6 +123,7 @@ apps=( # Apps
   moom
   phantomjs
   prey
+  rescuetime
   sequel-pro
   silverlight
   skype
