@@ -88,15 +88,14 @@ apps=( # Apps
   alfred
   atext
   bartender
+  blink1control
   boom
   caffeine
   cheatsheet
   choosy
   cloudup
-  #diffmerge
   disk-inventory-x
   dropbox
-  #filezilla
   firefox
   flash
   flash-player
@@ -104,20 +103,17 @@ apps=( # Apps
   flux
   formatmatch
   ghostlab
-  # gisto
   google-chrome
   #google-drive
+  growlnotify
   hipchat
-  hocus-focus
   imageoptim
   isolator
   iterm2
   jadengeller-helium
-  jenkins-menu
+  joinme
   keepassx
-  #lastpass-universal
   macclean
-  #mamp
   menucalendarclock-ical
   monolingual
   moom
@@ -128,15 +124,17 @@ apps=( # Apps
   silverlight
   skype
   sourcetree
-  spideroak
+  spideroakone
   spotify
   spotify-notifications
   sublime-text3
   thunderbird
-  #toggldesktop
+  toggldesktop
   vagrant
   virtualbox
-  #virtualhostx
+  witch
+  xampp
+  xquartz
 )
 brew cask install --appdir="/Applications" ${apps[@]} # Install apps to /Applications
 
