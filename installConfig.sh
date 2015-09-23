@@ -99,10 +99,8 @@ apps=( # Apps
   firefox
   flash
   flash-player
-  fluid
   flux
   formatmatch
-  ghostlab
   google-chrome
   #google-drive
   growlnotify
@@ -148,7 +146,7 @@ mackup restore
 
 # Symlink dot files not supported by Mackup
 echo "Symlinking dot files not supported by Mackup..."
-ln -s ~/Dropbox/Local-Dev-Config/dot-files/.git-completion-aliases.bash .git-completion-aliases.bash && ln -s ~/Dropbox/Local-Dev-Config/dot-files/.git-completion.bash .git-completion.bash && mkdir ~/.drush && ln -s ~/Dropbox/Local-Dev-Config/dot-files/.drush/aliases.drushrc.php ~/.drush/aliases.drushrc.php && ln -s ~/Dropbox/Local-Dev-Config/dot-files/.bash_profile_Vagrant .bash_profile_Vagrant
+ln -s /Users/ldavis-robeson/Google\ Drive/Local\ Dev/dot-files/.git-completion-aliases.bash .git-completion-aliases.bash && ln -s /Users/ldavis-robeson/Google\ Drive/Local\ Dev/dot-files/.git-completion.bash .git-completion.bash && mkdir ~/.drush && ln -s /Users/ldavis-robeson/Google\ Drive/Local\ Dev/dot-files/.drush/aliases.drushrc.php ~/.drush/aliases.drushrc.php && ln -s /Users/ldavis-robeson/Google\ Drive/Local\ Dev/dot-files/.bash_profile_Vagrant .bash_profile_Vagrant
 
 # Create Sites directory for local sites
 echo "Creating Sites directory..."
@@ -156,6 +154,6 @@ mkdir ~/Sites
 
 # Symlink Sublime Text Packages
 echo "Symlinking Sublime Text Packages..."
-mkdir ~/Library/Application\ Support/Sublime\ Text\ 3 && ln -s ~/Dropbox/Local-Dev-Config/Sublime\ Text/Packages  ~/Library/Application\ Support/Sublime\ Text\ 3/Packages && ln -s ~/Dropbox/Local-Dev-Config/Sublime\ Text/Installed\ Packages ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages
+mkdir ~/Library/Application\ Support/Sublime\ Text\ 3 && ln -s /Users/ldavis-robeson/Google\ Drive/Local\ Dev/Sublime\ Text/Packages  ~/Library/Application\ Support/Sublime\ Text\ 3/Packages && ln -s /Users/ldavis-robeson/Google\ Drive/Local\ Dev/Sublime\ Text/Installed\ Packages ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages
 
 echo "Done! Yay, automation!"
