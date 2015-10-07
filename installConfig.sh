@@ -92,7 +92,7 @@ apps=( # Apps
   boom
   caffeine
   cheatsheet
-  choosy
+  #choosy
   cloudup
   disk-inventory-x
   dropbox
@@ -112,7 +112,6 @@ apps=( # Apps
   joinme
   keepassx
   macclean
-  menucalendarclock-ical
   monolingual
   moom
   phantomjs
