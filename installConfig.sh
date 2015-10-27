@@ -92,13 +92,13 @@ apps=( # Apps
   boom
   caffeine
   cheatsheet
-  #choosy
-  cloudup
+  # choosy
+  # cloudup
   disk-inventory-x
   dropbox
   firefox
-  flash
-  flash-player
+  # flash
+  # flash-player
   flux
   formatmatch
   google-chrome
@@ -106,13 +106,12 @@ apps=( # Apps
   growlnotify
   hipchat
   imageoptim
-  isolator
   iterm2
   jadengeller-helium
   joinme
   keepassx
-  macclean
-  monolingual
+  # macclean # cask not up-to-date
+  # monolingual # replaced by macclean
   moom
   phantomjs
   prey
