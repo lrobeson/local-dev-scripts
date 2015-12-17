@@ -86,7 +86,6 @@ apps=( # Apps
   adium
   adobe-creative-cloud
   alfred
-  atext
   bartender
   blink1control
   boom
@@ -96,7 +95,7 @@ apps=( # Apps
   disk-inventory-x
   dropbox
   firefox
-  # flasha
+  # flash
   flux
   formatmatch
   google-chrome
