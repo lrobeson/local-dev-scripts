@@ -14,7 +14,7 @@
 #     - click "Apply changes" and wait for sync to finish
 #
 # 3) Copy & paste this line into Terminal to run this script:
-#    ~/Google Drive/Local Dev/scripts/installConfig.sh
+#    ~/Google\ Drive/Local\ Dev/scripts/installConfig.sh
 #
 # 4) Manual steps when script is done running:
 #   - regenerate SSH keys (https://help.github.com/articles/generating-ssh-keys): update on Github, code.forumone.com, & send to Sysadmins
@@ -91,7 +91,6 @@ apps=( # Apps
   boom
   caffeine
   cheatsheet
-  # choosy
   disk-inventory-x
   dropbox
   firefox
@@ -108,12 +107,10 @@ apps=( # Apps
   # jadengeller-helium
   joinme
   keepassx
-  # macclean # cask not up-to-date
-  # menumeters
+  mamp
   moom
   node
   phantomjs
-  prey
   rescuetime
   screenhero
   sequel-pro
@@ -122,7 +119,6 @@ apps=( # Apps
   sourcetree
   spideroakone
   spotify
-  spotify-notifications
   sublime-text3
   thunderbird
   toggldesktop
@@ -144,7 +140,7 @@ mackup restore
 
 # Symlink dot files not supported by Mackup
 echo "Symlinking dot files not supported by Mackup..."
-ln -s /Users/ldavis-robeson/Google\ Drive/Local\ Dev/dot-files/.git-completion-aliases.bash .git-completion-aliases.bash && ln -s /Users/ldavis-robeson/Google\ Drive/Local\ Dev/dot-files/.git-completion.bash .git-completion.bash && mkdir ~/.drush && ln -s /Users/ldavis-robeson/Google\ Drive/Local\ Dev/dot-files/.drush/aliases.drushrc.php ~/.drush/aliases.drushrc.php && ln -s /Users/ldavis-robeson/Google\ Drive/Local\ Dev/dot-files/.bash_profile_Vagrant .bash_profile_Vagrant
+ln -s /Users/ldavis-robeson/Google\ Drive/Local\ Dev/dotfiles/.git-completion-aliases.bash .git-completion-aliases.bash && ln -s /Users/ldavis-robeson/Google\ Drive/Local\ Dev/dotfiles/.git-completion.bash .git-completion.bash && mkdir ~/.drush && ln -s /Users/ldavis-robeson/Google\ Drive/Local\ Dev/dotfiles/.drush/aliases.drushrc.php ~/.drush/aliases.drushrc.php && ln -s /Users/ldavis-robeson/Google\ Drive/Local\ Dev/dotfiles/.bash_profile_Vagrant .bash_profile_Vagrant
 
 # Create Sites directory for local sites
 echo "Creating Sites directory..."
