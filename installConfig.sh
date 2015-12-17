@@ -93,12 +93,10 @@ apps=( # Apps
   caffeine
   cheatsheet
   # choosy
-  # cloudup
   disk-inventory-x
   dropbox
   firefox
-  # flash
-  # flash-player
+  # flasha
   flux
   formatmatch
   google-chrome
@@ -107,15 +105,18 @@ apps=( # Apps
   hipchat
   imageoptim
   iterm2
-  jadengeller-helium
+  itsycal
+  # jadengeller-helium
   joinme
   keepassx
   # macclean # cask not up-to-date
-  # monolingual # replaced by macclean
+  # menumeters
   moom
+  node
   phantomjs
   prey
   rescuetime
+  screenhero
   sequel-pro
   silverlight
   skype
