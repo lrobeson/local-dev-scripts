@@ -123,7 +123,7 @@ apps=( # Apps
   thunderbird
   toggldesktop
   vagrant
-  virtualbox
+  # virtualbox # too many issues, install this manually and verify correct version
   witch
   xampp
   xquartz
