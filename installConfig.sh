@@ -86,6 +86,7 @@ apps=( # Apps
   adium
   adobe-creative-cloud
   alfred
+  acquia-dev-desktop
   bartender
   blink1control
   boom
@@ -93,18 +94,22 @@ apps=( # Apps
   cheatsheet
   disk-inventory-x
   dropbox
+  easyfind
   firefox
   # flash
   flux
   formatmatch
+  gisto
   google-chrome
   #google-drive
   growlnotify
   hipchat
+  hocus-focus
   imageoptim
   iterm2
   itsycal
   # jadengeller-helium
+  java
   joinme
   keepassx
   mamp
@@ -127,6 +132,7 @@ apps=( # Apps
   witch
   xampp
   xquartz
+  zoomus
 )
 brew cask install --appdir="/Applications" ${apps[@]} # Install apps to /Applications
 
