@@ -91,12 +91,13 @@ apps=( # Apps
   blink1control
   boom
   caffeine
-  cheatsheet
+  #cheatsheet
   disk-inventory-x
   dropbox
   easyfind
   firefox
   # flash
+  fluid
   flux
   formatmatch
   gisto
@@ -113,11 +114,12 @@ apps=( # Apps
   joinme
   keepassx
   mamp
+  mightytext
   moom
   node
   phantomjs
-  rescuetime
-  screenhero
+  #rescuetime
+  #screenhero
   sequel-pro
   silverlight
   skype
@@ -125,6 +127,7 @@ apps=( # Apps
   spideroakone
   spotify
   sublime-text3
+  telegram-desktop
   thunderbird
   toggldesktop
   vagrant
