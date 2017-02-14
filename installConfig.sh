@@ -1,10 +1,11 @@
 #
 # AUTOMATED SETUP ON A NEW MACHINE:
 #
-# This script takes care of installing local dev tools, applications, fonts,
+# This script takes care of installing local dev tools, (most) applications, fonts,
 # and copying over custom configuration.
 #
-# 1) Download Google Drive: https://tools.google.com/dlpage/drive/index.html?hl=en
+# 1) Download Google Drive:
+#     - https://tools.google.com/dlpage/drive/index.html?hl=en
 #
 # 2) Set up Google Drive:
 #     - Go to Preferences
@@ -14,17 +15,19 @@
 #     - click "Apply changes" and wait for sync to finish
 #
 # 3) Copy & paste this line into Terminal to run this script:
-#    ~/Google\ Drive/Local\ Dev/scripts/installConfig.sh
+#   cd ~/Google\ Drive/Local\ Dev/scripts/;chmod a+x installConfig.sh;./installConfig.sh
 #
 # 4) Manual steps when script is done running:
-#   - regenerate SSH keys (https://help.github.com/articles/generating-ssh-keys): update on Github, code.forumone.com, & send to Sysadmins
-#   - open Firefox or Chrome to import bookmarks, add-ons, and history
+#   - copy SSH keys from previous machine or generate new ones (https://help.github.com/articles/generating-ssh-keys): update on Github, send to Sysadmins
+#   - open Chrome to sync and import bookmarks, add-ons, and history
 #   - install company fonts in the Local Dev -> fonts directory: Metric and Copernicus
 #   - re-add application licenses that weren't exported (Bartender, Boom, Sublime Text, etc.)
+#   - install non-cask applications in ~/Google\ Drive/Local\ Dev/non-cask\ Applications
+#   - install Firefox (Cask doesn't keep up)
+#   - install Virtualbox (Cask doesn't keep up)
+#   - make sure Mackup restore ran successfully (Dropbox needs to sync first)
+#   - a bunch of other stuff I always forget to note until I put away the old computer
 #
-# TROUBLESHOOTING:
-#   In order to run this script as a program, you must change the file mode to executable by typing this command
-#   in Terminal where the script is: chmod a+x installConfig.sh
 #
 # INSPIRED BY THESE POSTS:
 #   1) https://gist.github.com/denji/92d7351151dad9c1bdc9
@@ -71,7 +74,6 @@ brew tap caskroom/fonts # install fonts with Cask
 # Install fonts
 echo "Homebrew Cask: installing fonts..."
 fonts=(
-  font-fontawesome
   font-input
   font-oswald
   font-roboto
@@ -83,55 +85,35 @@ brew cask install ${fonts[@]}
 # Install applications
 echo "Homebrew Cask: installing apps..."
 apps=( # Apps
-  adium
   adobe-creative-cloud
   alfred
-  acquia-dev-desktop
   bartender
-  blink1control
   boom
   caffeine
-  #cheatsheet
-  disk-inventory-x
   dropbox
   easyfind
-  firefox
-  # flash
   fluid
   flux
   formatmatch
+  franz #replaces hipchat and telegram
   gisto
   google-chrome
   #google-drive
   growlnotify
-  hipchat
   hocus-focus
   imageoptim
   iterm2
   itsycal
-  # jadengeller-helium
   java
-  joinme
   keepassx
-  mamp
-  mightytext
   moom
   node
   phantomjs
-  #rescuetime
-  #screenhero
   sequel-pro
-  silverlight
-  skype
   sourcetree
-  spideroakone
-  spotify
-  sublime-text3
-  telegram-desktop
-  thunderbird
+  sublime-text
   toggldesktop
   vagrant
-  # virtualbox # too many issues, install this manually and verify correct version
   witch
   xampp
   xquartz
